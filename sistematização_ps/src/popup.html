@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleatorizador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Aleatorizador</h1>
+    <h2>Escolha sua opção:</h2>
+
+    <form id="numero-sequencia-form">
+        <label for="inicio">Início da sequência:</label>
+        <input type="number" id="inicio" name="inicio"><br><br>
+
+        <label for="fim">Fim da sequência:</label>
+        <input type="number" id="fim" name="fim"><br><br>
+
+        <button type="button" onclick="sortearNumero()">Sortear Número</button>
+    </form>
+
+    <form id="elementos-form">
+        <label for="elementos">Elementos (separados por vírgula):</label>
+        <input type="text" id="elementos" name="elementos"><br><br>
+
+        <button type="button" onclick="sortearElemento()">Sortear Elemento</button>
+    </form>
+
+    <h3 id="resultado"></h3>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Meu Aleatorizador",
+  "version": "1.0",
+  "description": "Uma extensão que sorteia elementos de uma lista fornecida pelo usuário.",
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": "src/icons/icon.png"
+  },
+  "icons": {
+    "128": "src/icons/icon.png"
+  },
+  "permissions": []
+}
