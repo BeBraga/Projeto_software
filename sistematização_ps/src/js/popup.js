@@ -3,7 +3,7 @@ function sortearNumero() {
     const fim = parseInt(document.getElementById("fim").value);
 
     if (isNaN(inicio) || isNaN(fim) || inicio > fim) {
-        document.getElementById("resultado").innerText = "Por favor, insira um intervalo válido.";
+        document.getElementById("resultado").innerText = "Insira um intervalo válido.";
         return;
     }
 
@@ -16,7 +16,7 @@ function sortearElemento() {
     const elementosLimpos = elementos.map(e => e.trim()).filter(e => e !== "");
 
     if (elementosLimpos.length === 0) {
-        document.getElementById("resultado").innerText = "Por favor, insira elementos válidos.";
+        document.getElementById("resultado").innerText = "Insira elementos válidos.";
         return;
     }
 

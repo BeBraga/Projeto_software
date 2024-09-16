@@ -34,9 +34,9 @@ public class Aleatorizador {
         Scanner scanner = new Scanner(System.in);
         Aleatorizador aleatorizador = new Aleatorizador();
 
-        System.out.println("Deseja sortear um número ou um elemento?");
-        System.out.println("1 - Sortear um número em uma sequência");
-        System.out.println("2 - Sortear um elemento específico");
+        System.out.println("Qual o tipo de sorteio?");
+        System.out.println("1 - Sequência");
+        System.out.println("2 - Grupos de elementos");
 
         int escolha = scanner.nextInt();
 
